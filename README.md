@@ -1,5 +1,17 @@
 # Installation
 
+### Install the portaudio library with homebrew
+
+```
+brew install portaudio
+```
+
+You can uninstall later with
+
+```
+brew uninstall portaudio
+```
+
 ### Create a python venv and activate it
 
 ```
@@ -13,7 +25,8 @@ python3 -m venv venv
 pip3 install -r ./requirements.txt
 ```
 
-### Run jupyter-lab notebook
+### Run jupyterlab notebook
+
 ```
 jupyter-lab
 ```
